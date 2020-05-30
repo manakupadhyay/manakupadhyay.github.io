@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Dancing+Script:wght@600&family=Lato&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+    /*font-family: 'B612 Mono', monospace;*/
+   font-family: 'Lato', sans-serif;
+}
+
+/*.dark-mode{
+  background-color: black;
+  color: white;
+}
+*/
+
+/*Navigation Bar*/
+
+.navbar{
+    /* 1 rem = 16px */
+    height: 5rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+.nav-link:hover,
+.nav-link:active{
+    color: #000000;
+  font-size:1.3rem;
+}
+
+
+/* Landing */
+.caption{
+    margin-top: 7rem;
+    text-align: center;
+}
+.landing-image{
+    margin-top:2rem;
+}
+.img-fluid{
+    width: 18.5rem;
+    height: auto;
+    border-radius: 50%;
+}
+.landing-heading{
+    margin-top: 2.5rem;
+}
+.landing-intro{
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+hr{
+    margin-top: 3.5rem;
+  border-style: none;
+  border-top-style: solid;
+  border-color: grey;
+  width: 10rem;
+  border-width: 5px;
+}
+
+/* About */
+
+.my-about{
+  margin-top: 2rem;
+}
+
+.about-text{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: .07rem;
+}
+
+.about-image{
+  margin-left: 2rem;
+  display: block;
+  margin: auto auto;
+}
+
+.progress{
+  margin: 1rem 2rem;
+  height: 1.2rem;
+}
+.skills-row{
+  margin: 2rem 1.5rem;
+}
+
+.connect-row{
+  margin: 5rem auto;
+
+}
+
+.connect-text{
+  font-size: 1.8rem;
+  text-align: justify;
+}
+.form-text{
+     font-size: 1.8rem;
+}
+
+.btn{
+  width:8rem;
+  height: 3rem;
+}
+
+.form-input{
+  border-width: .15rem;
+  border-color: #343a40;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover, a:active{
+ text-decoration: none;
+  color: inherit;
+}
+
+#footer{
+
+  letter-spacing: .1rem;
+  padding-top: 5rem;
+
+
+}
