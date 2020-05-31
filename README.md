@@ -1,4 +1,4 @@
-### My Website:boy:
+### My Website :boy:.
 
 Click [here](https://manakupadhyay.github.io) to view the website.
 
