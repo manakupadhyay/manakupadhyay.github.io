@@ -1,0 +1,24 @@
+{
+  "name": "manakupadhyay.github.io",
+  "version": "1.0.0",
+  "description": "\"Personal Website\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manakupadhyay/manakupadhyay.github.io.git"
+  },
+  "author": "Manak Upadhyay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manakupadhyay/manakupadhyay.github.io/issues"
+  },
+  "homepage": "https://github.com/manakupadhyay/manakupadhyay.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
