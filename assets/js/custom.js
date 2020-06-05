@@ -9,3 +9,11 @@ function copyText() {
     x = 'Copied'
 }
 
+// function sendMail(){
+//     let subject = getElementById('subject').val
+//     let body = getElementById('message').val
+//     console.log(subject)
+//     console.log(body)
+//     window.open(`mailto:manu742000@gmail.com?subject=${subject}&body=${message}`)
+// }
+
