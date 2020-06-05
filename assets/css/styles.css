@@ -6,6 +6,14 @@ body{
     /*font-family: 'B612 Mono', monospace;*/
    font-family: 'Lato', sans-serif;
 }
+hr{
+  margin-top: 3.5rem;
+  border-style: none;
+  border-top-style: solid;
+  border-color: grey;
+  width: 10rem;
+  border-width: 5px;
+}
 
 /*.dark-mode{
   background-color: black;
@@ -14,6 +22,7 @@ body{
 */
 
 /*Navigation Bar*/
+
 .navbar{
     /* 1 rem = 16px */
     height: auto;
@@ -26,27 +35,31 @@ body{
     font-family: 'Dancing Script', cursive;
     padding: 1rem 1rem;
     padding-left: 2rem;
-    height: 3rem;
+    /*height: 3rem;*/
     font-weight: 600;
-    font-style: bold;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
-.nav-link:hover,
+/*.nav-link:hover,
 .nav-link:active{
-  color: #000000;
-  font-size:1.3rem;
+  font-size:1.5rem;
 }
+*/
+/*Navigation Bar End*/
 
 
 /* Landing */
+
 .caption{
   margin-right: auto;
   margin-left: auto;
-  margin-top: 7rem;
+  margin-top: 8rem;
   text-align: center;
+  /*margin-bottom: 3rem;*/
 }
+
 .landing-image{
-    margin-top:2rem;
+    margin-top:auto;
+    margin-bottom: auto;
 }
 .img-fluid{
     width: 18.5rem;
@@ -54,20 +67,15 @@ body{
     border-radius: 50%;
 }
 .landing-heading{
-    margin-top: 2.1rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .landing-intro{
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.75rem;
 }
-hr{
-  margin-top: 3.5rem;
-  border-style: none;
-  border-top-style: solid;
-  border-color: grey;
-  width: 10rem;
-  border-width: 5px;
-}
+/* Landing End*/
+
 
 /* About */
 
@@ -85,6 +93,7 @@ hr{
   display: block;
   margin: auto auto;
 }
+/* About End*/
 
 /* Skills */
 
@@ -96,14 +105,28 @@ hr{
   margin: 2rem 1.5rem;
 }
 
-.connect-row{
-  margin: 5rem auto;
+/* Skills */
 
+/* Connect */
+
+.connect-row{
+  margin: 3rem auto;
 }
 
 .connect-text{
   font-size: 1.8rem;
-  text-align: justify;
+  text-align: center;
+}
+
+#connect-info{
+  font-size:1.1rem;
+  background-color:  #343a40;
+  letter-spacing: .2rem;
+  border-radius: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .form-text{
      font-size: 1.8rem;
@@ -118,6 +141,11 @@ hr{
   border-width: .15rem;
   border-color: #343a40;
 }
+
+/* Connect End */
+
+/* Links Section */
+
 a {
   text-decoration: none;
   color: inherit;
@@ -127,10 +155,12 @@ a:hover, a:active{
   color: inherit;
 }
 
+/* Links Section End*/
+
+/* Footer */
+
 #footer{
 
   letter-spacing: .1rem;
   padding-top: 5rem;
-
-
 }
