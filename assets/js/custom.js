@@ -7,6 +7,7 @@ function copyText() {
     window.getSelection().removeAllRanges();// to deselect
     let x = document.getElementById("connect-info").title
     x = 'Copied'
+    document.getElementById('connect-info').title = x
 }
 
 // function sendMail(){
