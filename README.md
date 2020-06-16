@@ -1,6 +1,6 @@
-### My Website
+### Manak Upadhyay
 
-###### It is \*always\* under construction.
+###### This is my portfolio website. It is \*always\* under construction.
 
 Click [here](https://manakupadhyay.github.io) to view the website.
 
