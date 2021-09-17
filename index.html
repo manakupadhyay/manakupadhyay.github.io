@@ -16,6 +16,7 @@
     <!-- Font Awesome Icons -->
     <!-- <script src="https://kit.fontawesome.com/047fada9b9.js" crossorigin="anonymous"></script> -->
     
+    <!-- for sending mails     -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>  
 
     <!-- Font Awseome Css -->
@@ -269,6 +270,20 @@
             </div>
         </div>
     </footer>
+    
+    <script>
+        function sendEmail() {
+            Email.send({
+                SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
+                To : 'upadhyaymanak@gmail.com',
+                From : document.getElementById('email'),
+                Subject : document.getElementById('subject'),
+                Body : document.getElementById('message')
+                }) .then(function (message) {
+          alert("mail sent successfully")
+        });
+        }
+    </script>
 
     <!-- Bootstrap JS -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
