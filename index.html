@@ -193,7 +193,7 @@
             <div class="col-md-6 col-md-offset-2">
                 <div class="panel panel-dark">
                     <div class="panel-body">
-                        <form action="#" method="POST" class="text-center">
+                        <form action="" method="POST" class="text-center">
                             <div class="form-group">
                                 <label for="name" class="lead form-text"> Name</label>
                                 <input type="text" class="form-control my-2 form-input" id="name" placeholder="Name"
@@ -272,7 +272,8 @@
     </footer>
     
     <script>
-        function sendEmail() {
+        function sendEmail(e) {
+            e.preventDefault();
             Email.send({
                 SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
                 To : 'upadhyaymanak@gmail.com',
