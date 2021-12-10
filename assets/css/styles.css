@@ -128,6 +128,9 @@ hr{
   padding-left: 1rem;
   padding-right: 1rem;
 }
+#connect-info:hover {
+  cursor: pointer;
+}
 .form-text{
      font-size: 1.8rem;
 }
